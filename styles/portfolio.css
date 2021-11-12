@@ -34,6 +34,10 @@ p {
   line-height: 30px;
 }
 
+img {
+  background: var(--secondary-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -71,4 +75,15 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.project-description {
+  padding: 120px 60px 0;
+}
+
+@media (max-width: 720px) {
+  .project-desription {
+    padding: 0;
+    text-align: center;
+  }
 }
