@@ -82,7 +82,7 @@ img {
 }
 
 @media (max-width: 720px) {
-  .project-desription {
+  .project-description {
     padding: 0;
     text-align: center;
   }
