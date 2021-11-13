@@ -21,6 +21,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -54,7 +55,7 @@ img {
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
   color: #373638;
 }
@@ -82,6 +83,19 @@ img {
 }
 
 @media (max-width: 720px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
