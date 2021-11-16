@@ -105,6 +105,10 @@ img {
     border-radius: 55px;
   }
 
+  .about-section {
+    padding: 160px 20px;
+  }
+
   .about-section h1 {
     font-size: 64px;
     line-height: 80px;
