@@ -3,6 +3,11 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #f9f7fd;
+  --background-gradient: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
 }
 
 body {
@@ -44,7 +49,7 @@ img {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: var(--background-gradient);
   text-align: center;
   padding: 160px 20px;
 }
