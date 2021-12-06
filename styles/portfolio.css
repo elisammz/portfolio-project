@@ -78,6 +78,11 @@ img {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  box-shadow: 5px 5px 5px grey;
+  color: white;
+}
+
 .btn-granding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -85,6 +90,11 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-granding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 .project-description {
@@ -215,4 +225,8 @@ footer .contact-box {
 
 footer .contact-box p {
   margin: 0;
+}
+
+.resume-bullets {
+  font-size: 14px;
 }
