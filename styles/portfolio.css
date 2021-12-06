@@ -132,6 +132,10 @@ img {
     padding: 0;
     text-align: center;
   }
+
+  .resume-bullets {
+    text-align: left;
+  }
 }
 
 .border-radius {
