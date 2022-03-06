@@ -107,6 +107,10 @@ img {
     line-height: 2;
   }
 
+  h2 {
+    font-size: 38px;
+  }
+
   .justify-content-between {
     justify-content: center !important;
   }
@@ -123,6 +127,10 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .project-description h2 {
+    font-size: 32px;
   }
 
   .resume-bullets {
