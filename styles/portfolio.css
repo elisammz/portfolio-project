@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #6ca2a7;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #f9f7fd;
+  --secondary-color: #f9f1e5;
   --background-gradient: radial-gradient(
     circle at 10% 20%,
     rgb(242, 235, 243) 0%,
@@ -49,16 +49,19 @@ img {
 }
 
 .hero {
-  background: var(--background-gradient);
+  background-image: url("/images/hero-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 90vh;
   text-align: center;
   padding: 160px 20px;
+  color: white;
 }
 
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
 }
 
 .hero h2 {
@@ -70,9 +73,9 @@ img {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background-color: white;
   border-radius: 4px;
-  color: white;
+  color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -80,7 +83,7 @@ img {
 
 .btn-branding:hover {
   box-shadow: 5px 5px 5px grey;
-  color: white;
+  color: var(--branding-color);
 }
 
 .btn-granding-outline {
@@ -99,6 +102,7 @@ img {
 
 .project-description {
   padding: 120px 60px 0;
+  text-align: center;
 }
 
 @media (max-width: 720px) {
@@ -117,6 +121,7 @@ img {
 
   .hero {
     padding: 80px 20px;
+    min-height: 50%;
   }
 
   .content-container {
