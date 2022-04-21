@@ -50,7 +50,7 @@ img {
 }
 
 .hero {
-  background-image: url("/images/hero-background.jpg");
+  background-image: url("/images/hero-background.png");
   background-attachment: fixed;
   background-position: center;
   min-height: 90vh;
@@ -63,6 +63,10 @@ img {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+}
+
+.hero h1 {
+  color: #373638;
 }
 
 .hero h2 {
