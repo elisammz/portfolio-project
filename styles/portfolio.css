@@ -111,7 +111,15 @@ img {
   text-align: center;
 }
 
+.job-title {
+  text-align: left;
+}
+
 @media (max-width: 720px) {
+  ul,
+  body {
+    text-align: justify;
+  }
   h1 {
     font-size: 38px !important;
     line-height: 2;
@@ -150,7 +158,7 @@ img {
   }
 
   .resume-bullets {
-    text-align: left;
+    text-align: justify;
   }
 }
 
