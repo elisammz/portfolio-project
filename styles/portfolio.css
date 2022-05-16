@@ -12,6 +12,7 @@
 
 body {
   font-family: var();
+  text-align: justify;
 }
 
 h1,
@@ -248,4 +249,8 @@ footer .contact-box p {
 
 .resume-bullets {
   font-size: 14px;
+}
+
+.flag {
+  font-size: 30px;
 }
