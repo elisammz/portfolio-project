@@ -1,5 +1,104 @@
+.categories {
+  cursor: pointer;
+}
+
+.item {
+  margin: 0 auto;
+}
+.social {
+  font-size: 18px;
+}
+
+.social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+.social a:hover {
+  opacity: 1;
+}
+
+.item .box {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c3942d;
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 160px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item .web-category {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #db7993;
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 160px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item .interest-category {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #598fe0;
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 160px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover .cover {
+  opacity: 1;
+}
+
+.item:hover .web-category {
+  opacity: 1;
+}
+
+.item:hover .interest-category {
+  opacity: 1;
+}
+
+.item .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #bbd8fb;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
 :root {
-  --branding-color: #6ca2a7;
+  --branding-color: #c3942c;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #f9f1e5;
@@ -46,8 +145,7 @@ p {
 }
 
 img {
-  background: var(--secondary-color);
-  border: thin solid rgba(39, 33, 66, 0.7);
+  cursor: pointer;
 }
 
 .hero {
@@ -84,7 +182,7 @@ img {
 
 .btn-branding {
   background-color: white;
-  border-radius: 4px;
+  border: 2px solid var(--branding-color);
   color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
@@ -92,22 +190,8 @@ img {
 }
 
 .btn-branding:hover {
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 5px 5px 5px #ecd36e;
   color: var(--branding-color);
-}
-
-.btn-granding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-
-.btn-granding-outline:hover {
-  background: var(--branding-color);
-  color: white;
 }
 
 .project-description {
@@ -138,11 +222,11 @@ img {
   }
 
   .hero {
-    background-image: url("/images/horizontal-background.png");
+    background-image: url("/images/asset-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 90vh;
   }
 
   .hero-text {
@@ -243,19 +327,18 @@ footer .social-links a {
   color: var(--branding-color);
   background-color: var(--secondary-color);
   padding: 10px 14px;
-
   font-size: 18px;
   border-radius: 50%;
 }
 
 footer .social-links a:hover {
   color: white;
-  background-color: var(--branding-color);
   transition: all 100ms ease-in-out;
+  background-color: var(--branding-color);
 }
 
 footer .contact-box {
-  background-color: var(--secondary-color);
+  background-color: #f7f9f9;
   padding: 30px 60px;
   border-radius: 10px;
 }
