@@ -234,6 +234,9 @@ a {
   .justify-content-between {
     justify-content: center !important;
   }
+  img {
+    width: 50%;
+  }
 
   .hero {
     background-image: url("/images/asset-1.png");
@@ -257,6 +260,12 @@ a {
 
   .project-description h2 {
     font-size: 32px;
+  }
+
+  .about-me p,
+  .keywords,
+  .work-description {
+    font-size: small;
   }
 
   .resume-bullets {
