@@ -184,6 +184,10 @@ a {
   font-size: 24px;
 }
 
+.keywords {
+  font-size: 24px;
+}
+
 .btn-branding {
   background-color: white;
   border: 2px solid var(--branding-color);
@@ -206,6 +210,11 @@ a {
 
 .job-title {
   text-align: left;
+}
+
+.work-description {
+  font-size: 30px;
+  line-height: 2;
 }
 
 @media (max-width: 900px) {
