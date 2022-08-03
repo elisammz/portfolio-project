@@ -362,10 +362,10 @@ footer .contact-box p {
   margin: 0;
 }
 
-.resume-bullets {
+.resume-bullets li {
   font-size: 16px;
-  line-height: 1.8;
-  text-align: left;
+  line-height: 1.5;
+  margin-top: 20px;
 }
 
 .flag {
