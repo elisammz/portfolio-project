@@ -231,6 +231,9 @@ a {
     font-size: 38px;
   }
 
+  h3 {
+    font-size: 30px;
+  }
   .justify-content-between {
     justify-content: center !important;
   }
@@ -266,10 +269,21 @@ a {
   .keywords,
   .work-description {
     font-size: small;
+    text-align: justify !important;
+  }
+
+  .app-description {
+    font-size: small;
+    margin: 20px;
+    line-height: 1.5;
   }
 
   .resume-bullets {
     text-align: justify;
+  }
+
+  .btn-branding {
+    display: none;
   }
 }
 
