@@ -113,6 +113,7 @@
 body {
   color: #373638;
   text-align: justify;
+  font-size: 20px;
 }
 
 h1,
@@ -268,22 +269,28 @@ a {
   .about-me p,
   .keywords,
   .work-description {
-    font-size: small;
+    font-size: medium;
     text-align: justify !important;
+    line-height: 1.8;
   }
 
   .app-description {
-    font-size: small;
+    font-size: medium;
     margin: 20px;
     line-height: 1.5;
   }
 
-  .resume-bullets {
-    text-align: justify;
-  }
-
   .btn-branding {
     display: none;
+  }
+
+  .flag {
+    font-size: 20px !important;
+  }
+
+  .graduation-date {
+    font-size: medium;
+    margin: 0 auto !important;
   }
 }
 
@@ -356,7 +363,9 @@ footer .contact-box p {
 }
 
 .resume-bullets {
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: left;
 }
 
 .flag {
