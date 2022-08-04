@@ -154,6 +154,18 @@ a {
   text-decoration: none;
 }
 
+ul {
+  margin-right: 30px;
+  font-family: var(--default-font-family);
+  font-weight: 300;
+  font-size: 20px;
+}
+
+li {
+  line-height: normal;
+  margin-top: 20px;
+}
+
 .hero {
   background-image: url("/images/website-background.png");
   background-repeat: no-repeat;
@@ -218,11 +230,21 @@ a {
   line-height: 2;
 }
 
+.education-degree {
+  font-size: 30px;
+  line-height: 2;
+}
+
+.education-major {
+  font-size: 20px;
+}
+
 @media (max-width: 900px) {
   ul,
   body {
     text-align: justify;
   }
+
   h1 {
     font-size: 38px !important;
     line-height: 2;
@@ -235,9 +257,11 @@ a {
   h3 {
     font-size: 30px;
   }
+
   .justify-content-between {
     justify-content: center !important;
   }
+
   img {
     width: 50%;
   }
@@ -268,10 +292,11 @@ a {
 
   .about-me p,
   .keywords,
-  .work-description {
+  .work-description,
+  ul {
     font-size: medium;
     text-align: justify !important;
-    line-height: 1.8;
+    line-height: 1.5;
   }
 
   .app-description {
@@ -289,8 +314,33 @@ a {
   }
 
   .graduation-date {
+    display: none;
+  }
+
+  .resume-subtitle {
+    text-align: left;
+  }
+
+  .education-details {
+    margin-bottom: 50px;
+  }
+
+  .education-degree {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+
+  .education-city {
+    display: none;
+  }
+
+  .education-major {
+    font-size: 16px;
+  }
+
+  .experience-description {
     font-size: medium;
-    margin: 0 auto !important;
+    text-align: justify;
   }
 }
 
