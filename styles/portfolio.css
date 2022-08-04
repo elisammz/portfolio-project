@@ -275,7 +275,7 @@ li {
   }
 
   .hero-text {
-    text-align: center;
+    text-align: center !important;
     position: absolute;
     left: 0% !important;
     top: 60%;
