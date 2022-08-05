@@ -99,10 +99,12 @@
 
 :root {
   --branding-color: #c3942c;
-  --heading-font-family: "Playfair Display", serif;
+  --title-color: #373638;
+  --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Poppins", sans-serif;
   --btn-font-family: "Oswald", sans-serif;
   --secondary-color: #f9f1e5;
+  --background-color: #f7f9f9;
   --background-gradient: radial-gradient(
     circle at 10% 20%,
     rgb(242, 235, 243) 0%,
@@ -167,27 +169,15 @@ li {
 }
 
 .hero {
-  background-image: url("/images/website-background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 90vh;
-}
-
-.hero-text {
-  position: absolute;
-  left: 40%;
-  top: 40%;
-}
-
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
+  background-color: var(--background-color);
+  min-height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero h1 {
-  color: #373638;
+  font-size: 40px;
 }
 
 .hero h2 {
@@ -221,6 +211,11 @@ li {
   text-align: center;
 }
 
+.app-description {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
 .job-title {
   text-align: left;
 }
@@ -233,6 +228,7 @@ li {
 .education-degree {
   font-size: 30px;
   line-height: 2;
+  color: black;
 }
 
 .education-major {
@@ -247,7 +243,7 @@ li {
 
   h1 {
     font-size: 38px !important;
-    line-height: 2;
+    line-height: 1.5;
   }
 
   h2 {
@@ -258,29 +254,13 @@ li {
     font-size: 30px;
   }
 
-  .justify-content-between {
-    justify-content: center !important;
-  }
-
   img {
     width: 50%;
   }
 
-  .hero {
-    background-image: url("/images/asset-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 90vh;
+  .hero .col-md-auto {
+    margin-top: 0 !important;
   }
-
-  .hero-text {
-    text-align: center !important;
-    position: absolute;
-    left: 0% !important;
-    top: 60%;
-  }
-
   .project-description {
     padding: 0;
     text-align: center;
@@ -301,7 +281,9 @@ li {
 
   .app-description {
     font-size: medium;
-    margin: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: justify;
     line-height: 1.5;
   }
 
