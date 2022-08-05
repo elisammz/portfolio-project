@@ -5,11 +5,8 @@
 .item {
   margin: 0 auto;
 }
-.social {
-  font-size: 18px;
-}
 
-.social a {
+.categories a {
   color: inherit;
   margin: 0 10px;
   display: inline-block;
@@ -123,14 +120,12 @@ h2,
 h3,
 h4,
 h6 {
-  color: black;
   font-family: var(--heading-font-family);
-  font-weight: bold;
+  color: black;
 }
 
 h1 {
   font-size: 80px;
-  line-height: 1.5;
 }
 
 h2 {
@@ -138,14 +133,14 @@ h2 {
 }
 
 h3 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 p {
   font-family: var(--default-font-family);
   font-weight: 300;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
 }
 
 img {
@@ -164,12 +159,11 @@ ul {
 }
 
 li {
-  line-height: normal;
+  line-height: 1.5;
   margin-top: 20px;
 }
 
 .hero {
-  background-color: var(--background-color);
   min-height: 55vh;
   display: flex;
   align-items: center;
@@ -184,7 +178,8 @@ li {
   font-family: var(--default-font-family);
   font-weight: 500;
   line-height: 1.5;
-  font-size: 24px;
+  font-size: 30px;
+  padding: 10px;
 }
 
 .keywords {
@@ -233,6 +228,12 @@ li {
 
 .education-major {
   font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    margin: 30px !important;
+  }
 }
 
 @media (max-width: 900px) {
@@ -331,11 +332,11 @@ li {
 }
 
 .content {
-  margin: 30px;
+  margin: 30px 250px 30px 250px;
 }
 
 nav {
-  padding: 20px 0;
+  padding: 20px;
 }
 
 nav li {
