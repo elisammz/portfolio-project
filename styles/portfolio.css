@@ -149,7 +149,7 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--title-color);
+  color: var(--branding-color);
 }
 
 ul {
@@ -183,7 +183,8 @@ li {
   padding: 10px;
 }
 
-.btn-branding {
+.btn-branding,
+.btn-branding-index {
   background-color: white;
   border: 2px solid var(--branding-color);
   color: var(--branding-color);
@@ -193,7 +194,8 @@ li {
   font-family: var(--btn-font-family);
 }
 
-.btn-branding:hover {
+.btn-branding:hover,
+.btn-branding-index:hover {
   box-shadow: 5px 5px 5px #ecd36e;
   color: var(--branding-color);
 }
