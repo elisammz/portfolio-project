@@ -110,7 +110,7 @@
 }
 
 body {
-  color: #373638;
+  color: var(--title-color);
   text-align: justify;
   font-size: 20px;
 }
@@ -149,6 +149,7 @@ img {
 
 a {
   text-decoration: none;
+  color: var(--title-color);
 }
 
 ul {
@@ -171,7 +172,7 @@ li {
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 44px;
 }
 
 .hero h2 {
@@ -180,10 +181,6 @@ li {
   line-height: 1.5;
   font-size: 30px;
   padding: 10px;
-}
-
-.keywords {
-  font-size: 24px;
 }
 
 .btn-branding {
@@ -248,7 +245,8 @@ li {
   }
 
   h2 {
-    font-size: 38px;
+    font-size: 30px;
+    line-height: 0.5;
   }
 
   h3 {
@@ -362,7 +360,8 @@ nav li.active a {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--branding-color);
+  font-family: var(--btn-font-family);
   font-size: 24px;
 }
 
