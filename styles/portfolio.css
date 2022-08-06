@@ -387,6 +387,7 @@ footer .social-links a:hover {
 footer .contact-box {
   background-color: #f7f9f9;
   padding: 30px 60px;
+  margin: 0px 30px;
   border-radius: 10px;
 }
 
