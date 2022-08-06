@@ -149,7 +149,7 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--title-color);
+  color: var(--branding-color);
 }
 
 a:hover {
